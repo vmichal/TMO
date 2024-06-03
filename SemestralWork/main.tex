@@ -1,0 +1,94 @@
+\documentclass[journal,onecolumn]{IEEEtran}
+\usepackage[pdftex]{graphicx}
+\usepackage{epstopdf}
+\epstopdfsetup{update}
+\usepackage{amsmath, amssymb}
+\usepackage{url}
+\usepackage{float}
+\usepackage{todonotes}
+\usepackage{siunitx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{subfigure}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+
+% VoMi uncomment this to learn the width of our page (for matlab to properly plot stuff)
+%\showthe\textwidth % For single column documents
+%\showthe\columnwidth % For multiple column documents
+
+\title{BVM13TMO Semestral Work}
+\author{Vojtěch Michal, michavo3}
+
+% The paper headers
+\markboth{BVM13TMO Semestral Work, Vojtěch Michal}%
+
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\begin{abstract}
+This report is a semestral work.
+\end{abstract}
+
+% Note that keywords are not normally used for peerreview papers.
+\begin{IEEEkeywords}
+Battery modelling, state estimation.
+\end{IEEEkeywords}
+
+
+\input{sources/2}
+\input{sources/3}
+\input{sources/4}
+\input{sources/5}
+\input{sources/6}
+\input{sources/7}
+\input{sources/8}
+\input{sources/9}
+\input{sources/10}
+\input{sources/12}
+\input{sources/13}
+\input{sources/14}
+
+
+\IEEEpeerreviewmaketitle
+
+
+
+
+
+
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi
+
+\begin{thebibliography}{9}
+
+    \bibitem{hongwen}
+Hongwen He, et al.
+\emph{"Online estimation of model parameters and state-of-charge of LiFePO4 batteries in electric vehicles"},
+Applied Energy,
+Volume 89, Issue 1,
+2012,
+https://doi.org/10.1016/j.apenergy.2011.08.005.
+    
+    \bibitem{fernandez}
+    Carlos Pastor-Fernández et al.,
+    \emph{"A Comparison between Electrochemical Impedance Spectroscopy and Incremental Capacity-Differential Voltage as Li-ion Diagnostic Techniques to Identify and Quantify the Effects of Degradation Modes within Battery Management Systems"},
+    Journal of Power Sources,
+    2017,
+    https://doi.org/10.1016/j.jpowsour.2017.03.042,
+    Available online at https://www.sciencedirect.com/science/article/pii/S0378775317303269
+
+\end{thebibliography}
+
+
+% that's all folks
+\end{document}
